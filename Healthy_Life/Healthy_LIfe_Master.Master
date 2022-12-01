@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Healthy_LIfe_Master.master.cs" Inherits="Healthy_Life.Healthy_LIfe_Master" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            height: 268px;
+            width: 453px;
+        }
+        
+        .auto-style2 {
+            height: 207px;
+            width: 100%;
+        }
+        
+        .auto-style3 {
+            width: 86px;
+            height: 73px;
+        }
+        
+    </style>
+</head>
+    <body style="background-image:url('Images/background.jpg'); background-size:100% 100%;  background-repeat: no-repeat;  background-attachment: fixed;">
+    <div>
+        <table align="center" width="100%">
+            <tr>
+                <td>
+                    <img alt=""  src="Images/socialImage.png" class="auto-style2"  />
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+    </div>
+    <div style="text-align:center; height:25px; background-color:azure;  bottom:0; width:100%">
+    &copy; Healthy Life Pvt. | All Rights Reserved.
+    </div>
+</body>
+</html>
